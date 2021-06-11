@@ -1,3 +1,5 @@
+# Test MovieSearcher for RichBee
+# ReactJs, Hooks, ReactRouter and imdbAPI
 
 # Getting Started with Create React App
 
