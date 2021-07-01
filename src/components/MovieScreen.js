@@ -29,7 +29,7 @@ function MovieScreen() {
         let video = await fetch(`https://imdb-api.com/API/YouTubeTrailer/${api_key}/${id}`).then((res) => res.json());
         let p = await fetch(`https://imdb-api.com/API/Posters/${api_key}/${id}`).then((res) => res.json());
         setMovie(mov);
-        setPoster(p.backdrops[0].link);//??? or move to useeffect
+        setPoster(p.backdrops[0].link);
         setVideoUrl('https://www.youtube.com/embed/'+video.videoId);
       };
       getMovie()
